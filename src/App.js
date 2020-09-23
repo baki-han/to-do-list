@@ -17,11 +17,6 @@ function App() {
         setNotes(notes.filter((el, i)=> index !== i));
     }
 
-    /*  <<< THIS IS A FUNCTION TO RESET BACK TO DEFAULT >>> //
-    const resetList = ()=>{
-       setNotes([])
-    } */
-
     return (
     <div className="App">
       <Header onClick={addNote} />
