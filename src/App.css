@@ -1,11 +1,11 @@
 .App {
 
-  width: 400px;
+  width: 50%;
   background-color:#f7fbfb;
-}
-
-h2{
-  font-weight: 300;
+  margin: auto;
+  border: 2px solid rgb(88, 110, 44);
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 
